@@ -1,0 +1,17 @@
+{
+  "name": "epic_button",
+  "version": "1.0.0",
+  "description": "this game increments a counter using sockets when you click the epic button",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "michael",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "socket.io": "^1.4.5"
+  }
+}
